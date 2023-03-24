@@ -1,0 +1,39 @@
+########################################################################################################################
+#                                Exercice de debug: Corriger un site internet                                          #
+########################################################################################################################
+
+Vous devez reprendre le code d'un collègue incompétent et le corriger afin que le site soit fonctionnel.
+
+Ce site est composé de deux pages :
+    -Une page d'accueil (Dossier pages => Home.html)
+    -Une page contact (Dossier pages => Contact.html)
+
+La page Home.html doit afficher une liste d'étudiant. Cette liste se compose de plusieurs cartes d'étudiant. Chaque
+carte d'étudiant contient les informations suivantes :
+    -Le nom de l'étudiant et son âge
+    -La section de l'étudiant et en quelle année il est
+    -La citation préférée de l'étudiant
+La page Home.html contient aussi un titre ainsi que trois boutons. Ces boutons fonctionnent comme suit :
+    -Le bouton "Tous les élèves" permet d'afficher la liste de tous les élèves lorsqu'on clique dessus
+    -Le bouton "Trier par âge" qui permet d'afficher les étudiants triés par âge dans l'ordre croissant
+    -Le bouton "Trier par section" qui permet de trier les étudiants selon leurs sections (ordre au choix)
+
+
+La page Contact.html contient un formulaire de contact. Ce dernier comprend les champs suivants :
+    -Un champ "Nom"
+    -Un champ "Prénom"
+    -Un champ "Adresse email"
+    -Un champ "Message" (zone de texte, 200 caractères maximum)
+Le formulaire doit être validé par une fonction JavaScript qui devra vérifier les informations suivantes :
+    -Aucun champ ne peut être vide
+    -L'adresse email doit être valide (regex)
+    -Un ou des messages d'erreurs doivent être renvoyés à l'utilisateur si les conditions ne sont pas remplies
+    -Si toutes les informations entrées sont correctes, une fenêtre modale doit apparaître et résumer les infos
+     envoyées par l'utilisateur. Lorsqu'on ferme cette fenêtre, on doit être redirigé vers la page Home.html
+
+
+Pour cet exercice, le CSS est entièrement fourni et ne contient pas de bug. C'est à vous qu'il appartient d'utiliser
+les bonnes classes aux bons endroits.
+SEUL LE CSS NE CONTIENT PAS DE BUG !
+Vous pouvez cependant réécrire des parties du code si vous le souhaitez.
+
